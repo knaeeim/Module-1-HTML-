@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+.logo{
+    width: 300px;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+    font-size: 20px;
+}
+
+.menu-container{
+    display: flex;
+    gap: 40px;
+}
+
+li:hover{
+    color: rgb(108, 162, 144);
+    cursor: pointer;
+}
+
+.banner-image{
+    width: 350px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 40px;
+}
+
+.banner-left{
+    width: 400px;
+    line-height: 2;;
+}
+
+/* .banner-right{
+    width: 50%;
+    margin: auto;
+} */
+
+.btn{
+    margin: 20px;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.hire-btn{
+    background-color: rgb(54, 131, 105);
+    box-shadow: 4px 4px 8px gray;
+}
+
+.project-btn{
+    background-color: rgb(74, 173, 35);
+    box-shadow: 4px 4px 8px gray;
+}
+
+.title{
+    font-size: 50px;
+
+}
+
+.service-container{
+    margin-top: 30px;
+}
+
+.service-title{
+    margin-top: 30px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.service-card{
+   width: 400px;
+   height: 550px;
+   margin-top: 50px;
+   box-shadow: 4px 4px 8px gray;
+   margin-left: 40px; 
+   text-align: center;
+   border-radius: 7px;
+}
+
+.service-img{
+   width: 250px; 
+}
+
+.service-card-btn{
+    padding: 15px 25px;
+    background-color: rgb(59, 221, 167);
+    border: none;
+    font-size: 18px;
+    color: white;
+    box-shadow: 5px 5px 10px gray;
+    cursor: pointer;
+}
+
+.service-description{
+    margin: 10px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+.contact-us{
+    padding: 50px;
+    width: 700px;
+    box-shadow: 4px 4px 8px gray;
+    margin-top: 50px;
+    margin-left: 600px;
+    text-align: center;
+}
+
+.input-box{
+    padding: 15px;
+    width: 50%;
+    margin-top: 10px;;
+}
+
+.message{
+    width: 40%;
+    height: 100px;
+    margin-top: 15px;
+}
+
+.submit-btn{
+    width: 15%;
+    padding: 15px;
+    background-color: rgb(59, 221, 167);
+    color: white;
+    border: none;
+    margin-top: 20px;
+    box-shadow: 4px 4px 8px gray;
+}
